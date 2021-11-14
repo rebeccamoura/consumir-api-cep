@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consumindo API - CEP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Cadastro</h1>
+    </header>
+
+    <main>
+        <form action="#">
+            <div class="one">
+                <div class="input">
+                    <input required type="text" name="name">
+                    <label for="name">Nome</label>
+                </div>
+                
+                <div class="input">
+                    <input required type="email" name="email">
+                    <label for="email">E-mail</label>
+                </div>
+            </div>
+
+            <div>
+                <div class="input">
+                    <input required type="text" name="cep">
+                    <label for="cep">CEP</label>
+                </div>
+                <div class="input">
+                    <input required type="text" name="address">
+                    <label for="address">Endereço</label>
+                </div>
+                <div class="input">
+                    <input type="number" name="number" required>
+                    <label for="number">Número</label>
+                </div>
+            </div>
+
+            <div>
+                <div class="input">
+                    <input type="text" name="neighborhood" required>
+                    <label for="neighborhood">Bairro</label>
+                </div>
+                <div class="input">
+                    <input type="text" name="city" required>
+                    <label for="city">Cidade</label>
+                </div>
+                <div class="input">
+                    <input type="text" name="state" required>
+                    <label for="state">Estado</label>
+                </div>
+            </div>
+
+            <button>Salvar</button>
+        </form>
+    </main>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
